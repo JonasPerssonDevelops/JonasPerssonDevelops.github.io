@@ -1,7 +1,7 @@
 # Jonas Persson Professional Website Readme <br> Project Repository: JonasPerssonDevelops/JonasPerssonDevelops.github.io
 
-<p style="text-align: center;">Websites and the CS 410 Intro To Web Development class is the proof that:</p>
-<p style="text-align: center;"><em>"Not all treasure is silver and gold."</em><br>-Captain Jack Sparrow, Pirates of The Caribbean: The Curse of the Black Pearl (2003)</p>
+<center>The Web and the CS 410 Intro To Web Development class are proof that:</center>
+<center><em>"Not all treasure is silver and gold."</em><br>-Captain Jack Sparrow, Pirates of The Caribbean: The Curse of the Black Pearl (2003)</center>
 
 ## Project Description
 This is a web app prototype for a professional website for Jonas Persson for the Portland State summer session 2022 class CS 410 Intro To Web Development. The code in this repository is deployed at: https://jonasperssondevelops.github.com

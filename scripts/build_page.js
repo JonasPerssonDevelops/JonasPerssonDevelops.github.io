@@ -10,6 +10,6 @@ if (pageId = 'index')
 
 function build_page_index()
 {
-    alert('index page id:ed')
+    // alert('index page id:ed')
     // title = document.
 }
