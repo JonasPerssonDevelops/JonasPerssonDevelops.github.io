@@ -9,10 +9,10 @@
   }
 
   .flex-item-nav {
-    padding: 2rem 0;
+    padding: 1.5rem 0;
     font-size: 1rem;
     text-align: center;
-    width: 10rem;
+    width: 12.5rem;
     height: 5rem;
   }
 
@@ -43,7 +43,7 @@
   grid-template-columns: 1fr;
   grid-template-rows: 0.3fr 0.7fr;
   grid-template-areas: "page_title" "nav-top";
-  background-image: linear-gradient(to right, #73AA0A, #DFEC51);
+  background-image: linear-gradient(to right, #553872,#322043);
 }
 
 .page_title-div {
@@ -59,10 +59,10 @@
 
   .container-top {
     display: grid;
-    grid-template-columns: 0.3fr 0.7fr;
+    grid-template-columns: 0.4fr 0.6fr;
     grid-template-rows: 1fr;
     grid-template-areas: "page_title nav-top";
-    background-image: linear-gradient(to right, #73AA0A, #DFEC51);
+    background-image: linear-gradient(to right, #553872,#322043);
   }
 
 }

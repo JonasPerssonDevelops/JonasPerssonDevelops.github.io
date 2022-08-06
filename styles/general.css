@@ -22,17 +22,29 @@
     --green: #006400;
     --pagetitle: #000000;
     --topbackgleft: #62d5e9;
+
+    --footer-height: 10rem;
   }
 
 body {
     margin: 0; 
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 1.2em;
+    /* font-size: 1.0rem; */
+    font-size: calc(90% + 0.5vw);
     color: var(--gray1);
 }
 
 .page_title-text {
     font-family: 'Noto Sans', sans-serif;
+    font-size: calc(250% + 0.5vw);
     color: var(--white);
 }
 
+  @media (min-width: 650px) {
+
+
+  }
+
+  @media (min-width: 850px) {
+
+  }

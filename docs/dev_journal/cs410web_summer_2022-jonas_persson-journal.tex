@@ -1,0 +1,182 @@
+\documentclass{article}
+\usepackage[margin=1.5in]{geometry}
+\usepackage{graphicx}
+\usepackage[section]{placeins}
+\usepackage{hyperref}
+
+\begin{document}
+	
+	\title { Portland State CS 410 Summer 2022 - Intro to Web Development Journal }
+	\author {Jonas Persson}
+	\maketitle
+	
+	\newpage
+
+\section*{template}
+\begin{itemize}
+	\item definition:
+	\item description:
+\end{itemize}
+
+\section*{7/31/2022}
+\begin{itemize}
+	\item Created the GitHub repository \newline \href{https://github.com/JonasPerssonDevelops/JonasPerssonDevelops.github.io}{https://github.com/JonasPerssonDevelops/JonasPerssonDevelops.github.io} \newline 
+	for containing the source code and deploying it to \newline \href{https://jonasperssondevelops.github.com}{https://jonasperssondevelops.github.io}
+	\item Studied the requirements in \texttt{Final Project - Summer.pdf}
+	\item Wrote up a top-design design for the web app, deciding to go with multiple HTML files that are populated with elements and content dynamically through JavaScript, especially the footer and navbar
+	\item Researched:
+		\begin{itemize} 
+        	\item Whether to use HTML entities or not for content characters (answer: only for $<$, $>$, and \&)
+        	\item Storing data in the HTML file to identify the page in order to run custom functions for each page in JavaScript (which can be accomplished using data-* attributes in the HTML)
+        	\item JavaScript file, directory, and identifier naming conventions
+        	\item Directory structure for assets for web apps
+		\end{itemize}
+		\item Tested with a skeleton HTML file and a .js file whether JavaScript can identify a page by data-* attributes. Success! Happy days are here again...
+
+\end{itemize}
+
+\section*{8/1/2022}
+\begin{itemize}
+	\item Continued to study the requirements in \texttt{Final Project - Summer.pdf} and top down plan the web app
+	\item Researched semantic HTML for the project cards, and for the overall structure of each HTML page, deciding to go with a article for each card and a header, main, and footer on each page
+	\item Decided that the footer should have social media and github repo links
+
+	\item Wrote a first version of the GitHub repository README.md and committed it
+	\item Checked out some professional bio websites for content inspiration \href{https://www.chrisducker.com/}{https://www.chrisducker.com/}, \href{https://www.marieforleo.com/}{https://www.marieforleo.com/}
+	\item Researched:
+		\begin{itemize} 
+			\item GitHub flavor markdown syntax
+			\item How to use tags header, main, article, section, aside, and footer together on the same page
+			\item Placing the nav outside or inside the header (either seems to be ok)
+			\item Website trends and how standard layouts for 2021 websites look
+			\item How to nest main, section, and article content
+			\item Spent 1 hour looking at different websites with this guide \newline \href{https://www.intechnic.com/blog/top-50-examples-best-responsive-designs/}{https://www.intechnic.com/blog/top-50-examples-best-responsive-designs/}
+			\href iphone viewport sizes
+		\end{itemize}
+	\item Wrote up a high-level architecture for each page with the following structure: \texttt{<nav>, <header>, <main>, sections, articles...., <footer>}
+\end{itemize}
+
+
+\section*{8/2/2022}
+\begin{itemize}
+	\item Researched:
+		\begin{itemize} 
+	 			\item Creating entirely dynamic pages versus several pages with dynamic elements; Going with several pages to allow the user to bookmark different pages easier
+	 			\item The directory structure of GitHub Pages
+	 			\item Using CSS Grid instead of bootstrap to have more control over styling
+		\end{itemize}
+	\item Reimplemented the navbar from the homeworks
+	\item Added ARIA accessibility markup to the navigation bar
+
+\end{itemize}
+
+
+\section*{8/3/2022}
+\begin{itemize}
+	\item Implemented a responsive header and navbar with CSS grid to display decorative text next to a responsive navbar.
+	\item Researched:
+		\begin{itemize} 
+	 			\item How to keep my name as decorative text hidden from screen readers so it isn't read out on every page. Solved with aria-hidden="true"
+		\end{itemize}
+	\item Added ARIA accessibility markup to the navigation bar.
+	\item Linked a Google font to style the decorative text in
+
+\end{itemize}
+
+\section*{8/4/2022}
+\begin{itemize}
+	\item Implemented JavaScript functions that dynamically build the navigation bar. 
+	\item Hid the social button icons from screen readers with \texttt{aria-hidden = "true"} as they don't add any functionality for people who are blind and they aren't part of the content of this personal website.
+	\item Hid the social button icon links from screen readers with \texttt{tabindex = -1}
+	\item Researched:
+		\begin{itemize} 
+	 			\item How to add link text in JavaScript.
+	 			\item How to add a node in JavaScript.
+	 			\item Social buttons and rules for using copyrighted images from Meta Platforms and GitHub with them
+	 			\item Is the syntax double or single quotes for JavaScript code
+	 			\item How to center cell content in CSS grid
+	 			\item Method for getting elements by id in JavaScript
+	 			\item What the proper method for adding text as a child to an HTML tag is
+	 			\item Correct semantic HTML for social button links
+	 			\item Hiding redundant links from screen readers with \texttt{tabindex = -1}
+		\end{itemize} 
+\end{itemize}
+
+\section*{8/5/2022}
+\begin{itemize}
+	\item Added, tested, and tweaked respons.ive font sizing with \texttt{rem} and a formula for font size: \texttt{font-size: calc(90\% + 0.5vw);} 
+	\item Added, tested, and tweaked responsive image sizing with \texttt{rem} and \texttt{@media} queries. 
+	\item Tried a new CSS grid format for the footer but the complexity didn't add any benefit so abandon ship, and reverted to a flex-box space-evenly solution instead.
+	\item Formatted the markdown file as text wasn't centering properly.
+	\item Fixed the social button links so they open in a new tab.
+	\item Tried to get the footer to stick to the bottom but gave up and saw that major websites don't bother to do that.
+	\item Tested different color schemes.
+	\item Tested resizing images proportionally to the viewport width but ran into problems as svg images don't have sizes so it appears impossible to scale them relatively, couldn't find a solution anyways
+	\item Researched:
+		\begin{itemize} 
+	 			\item Semantic footer examples
+	 			\item Optimal number of characters per line: 50-75 according to \href{https://baymard.com/blog/line-length-readability}{https://baymard.com/blog/line-length-readability}
+	 			\item Project directory structure for storing documentation
+		\end{itemize}
+\end{itemize}
+
+
+
+\section*{template}
+	
+\begin{itemize}
+	\item definition:
+	\item description:
+\end{itemize}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+\end{document}
