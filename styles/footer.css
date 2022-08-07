@@ -1,29 +1,29 @@
 
 .flex-container-footer {
-    background-color: coral;
-    padding: 0;
-    margin: 4rem 0rem 0rem 0rem;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  background-image: linear-gradient(to right, #00f2ff, #00ccd6);
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
   }
 
   .flex-item-footer {
-    padding: 2rem;
-    font-size: 1rem;
-    text-align: center;
+  padding: 2rem;
+  font-size: 1rem;
+  text-align: center;
   }
   
 .container-social-button {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 0.7fr 0.3fr;
-    grid-template-areas: 
-      "sb-logo" 
-      "sb-subtext";
-    justify-items: center;
-    align-items: center;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0.7fr 0.3fr;
+  grid-template-areas: 
+    "sb-logo" 
+    "sb-subtext";
+  justify-items: center;
+  align-items: center;
   }
   
 .item-social-button-logo {
@@ -40,22 +40,34 @@
 .social-button-logo {
   width: 50px;
   height: auto;
-  /* width: calc(90% - 60px); */
-
-  /* width: calc(120% + 0.5vw); */
-  /* height: calc(300% + 0.5vw); */
 }
 
 @media (min-width: 650px) {
   .social-button-logo {
-  width: 80px;
+  width: 70px;
   height: auto;
   }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 1200px) {
   .social-button-logo {
   width: 100px;
   height: auto;
   }
+}
+
+footer a {
+  color: var(--white);
+}
+
+footer a:link {
+  text-decoration: none;
+}
+
+footer a:visited {
+  text-decoration: none;
+}
+
+footer a:hover {
+  text-decoration: none;
 }

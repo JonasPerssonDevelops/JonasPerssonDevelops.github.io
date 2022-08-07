@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.8)  5 AUG 2022 21:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.8)  6 AUG 2022 22:24
 entering extended mode
 **./cs410web_summer_2022-jonas_persson-journal.tex
 (cs410web_summer_2022-jonas_persson-journal.tex
@@ -373,15 +373,15 @@ Overfull \hbox (40.62694pt too wide) in paragraph at lines 118--119
 o []https://baymard.com/blog/line-
  []
 
-[4] (cs410web_summer_2022-jonas_persson-journal.aux)
+[4] [5] (cs410web_summer_2022-jonas_persson-journal.aux)
 Package rerunfilecheck Info: File `cs410web_summer_2022-jonas_persson-journal.o
 ut' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8320 strings out of 478927
- 127472 string characters out of 2850165
- 438001 words of memory out of 3000000
+ 8322 strings out of 478927
+ 127488 string characters out of 2850165
+ 439001 words of memory out of 3000000
  26079 multiletter control sequences out of 15000+600000
  407881 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -396,10 +396,10 @@ atadekoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pf
 b><C:/Users/natadekoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmr17.pfb><C:/Users/natadekoko/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb>
-Output written on cs410web_summer_2022-jonas_persson-journal.pdf (4 pages, 1043
-53 bytes).
+Output written on cs410web_summer_2022-jonas_persson-journal.pdf (5 pages, 1065
+12 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
- 13 named destinations out of 1000 (max. 500000)
+ 87 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

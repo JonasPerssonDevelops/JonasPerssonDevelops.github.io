@@ -4,47 +4,68 @@
 }
 
 :root {
-    --white: #ffffff;
-    --gray1: #333333;
-    --gray2: #555555;
-    --gray3: #cccccc;
-    --gray4: #aaaaaa;
-  
-    --black: #080808;
-    --teal: #006060;
-    --lightteal: #008080;
-    --purple: #800080;
-    --navy: #000080;
-    --cyan: #17a2b8;
-    --violetred: #c71585;
-    --red: #ff0000;
-    --orange: #ffa500;
-    --green: #006400;
-    --pagetitle: #000000;
-    --topbackgleft: #62d5e9;
 
+    --white: #ffffff;
+    --lightgray: #EEEEEE;
+
+    --gradientfootera: #00f2ff; 
+    --gradientfooterb: #00ccd6;
+    --gradientheadera:  #AAAAAA;
+    --gradientheaderb:  #888888;
+
+    --decorativetexteff1: #fb00fb;
+    --decorativetexteff2: #03ffff;
+
+    --navbuttonhover: #999999;
     --footer-height: 10rem;
   }
 
 body {
     margin: 0; 
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* font-size: 1.0rem; */
     font-size: calc(90% + 0.5vw);
     color: var(--gray1);
 }
 
-.page_title-text {
-    font-family: 'Noto Sans', sans-serif;
-    font-size: calc(250% + 0.5vw);
-    color: var(--white);
+main {
+    background-color: var(--white);
+    padding: calc(4vw);
+    margin: 0;
 }
 
-  @media (min-width: 650px) {
+header {
+    margin: 0;
+}
 
+h1 {
+    margin-top: 0;
+    color: #34495e;
+    font-size: 3rem;
+}
 
-  }
+.main-top-transition-container {
+    width: 100%;
+    height: calc(26px + 0.3vw);
+    background-image: linear-gradient(to right, #AAAAAA,#888888);
+}
 
-  @media (min-width: 850px) {
+.main-top-rounded-corners {
+    width: 100%;
+    height: calc(26px + 0.3vw);
+    background-color: var(--white);
+    border-radius: calc(24px + 0.3vw) calc(24px + 0.3vw) 0px 0px;
+}
 
-  }
+.main-bottom-transition-container {
+    width: 100%;
+    height: calc(26px + 0.3vw);
+    background-image: linear-gradient(to right, var(--gradientfootera), var(--gradientfooterb));
+}
+
+.main-bottom-rounded-corners {
+    width: 100%;
+    height: calc(26px + 0.3vw);
+    background-color: var(--white);
+    border-radius: 0px 0px calc(24px + 0.3vw) calc(24px + 0.3vw);
+}
+

@@ -17,9 +17,9 @@ function build_navbar()
 {
     // Get the navbar ul and build links to populate it
     const nav_top_ul = document.getElementById('nav-top-ul');
-    build_navbar_item(nav_top_ul, 'Experience', 'work.html');
-    build_navbar_item(nav_top_ul, 'Software Projects', 'projects.html');
-    build_navbar_item(nav_top_ul, 'Contact', 'contact.html');
+    build_navbar_item(nav_top_ul, 'EXPERIENCE', 'work.html');
+    build_navbar_item(nav_top_ul, 'SOFTWARE PROJECTS', 'projects.html');
+    build_navbar_item(nav_top_ul, 'CONTACT', 'contact.html');
 }
 
 function build_navbar_item(nav_top_ul, hyperlink_text, link_path)

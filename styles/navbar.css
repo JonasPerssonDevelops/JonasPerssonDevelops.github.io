@@ -1,58 +1,68 @@
 
 .flex-container-nav {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-  }
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
 
-  .flex-item-nav {
-    padding: 1.5rem 0;
-    font-size: 1rem;
-    text-align: center;
-    width: 12.5rem;
-    height: 5rem;
-  }
+.flex-item-nav {
+  border: 1px solid #DDDDDD;
+  margin: 0.5rem;
+  padding-top: 1.3rem;
+  font-size: 1rem;
+  text-align: center; /* centers horizontally */
+  width: 13rem;
+  height: 4rem;
+}
 
-  .a-nav {
-    padding-top: 2rem;
-    padding-bottom: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    color: var(--pagetitle);
-    text-decoration: none;
-  }
+.a-nav {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  color: var(--white);
+  text-decoration: none;
+}
 
-  .flex-item-nav:hover {
-    color: var(--orange);
-  }
+.flex-item-nav:hover {
+  border: 1px solid var(--white);
+  color: #999999;
+  background-color: #EEEEEE;
+}
 
-  .flex-item-nav:hover a {
-    color: var(--orange);
-  }
+.flex-item-nav:hover a {
+  color: #999999;
+}
 
-  .a-nav:hover {
-    color: var(--orange);
-    text-decoration: none;
-  }
+.a-nav:hover {
+  /* color: var(--white); */
+  color: #999999;
+  text-decoration: none;
+}
 
 .container-top {
   display: grid;
+  margin: 0;
+  padding-bottom: 1rem;
   grid-template-columns: 1fr;
-  grid-template-rows: 0.3fr 0.7fr;
+  grid-template-rows: 0.1fr 0.9fr;
   grid-template-areas: "page_title" "nav-top";
-  background-image: linear-gradient(to right, #553872,#322043);
+  text-align: center;
+  background-image: linear-gradient(to right, #AAAAAA,#888888);
 }
 
 .page_title-div {
+  /* background-color: red; */
   grid-area: page_title;
   padding: 1rem;
 }
 
 .nav-top {
   grid-area: nav-top;
+  padding-top: 1rem;
 }
 
 @media (min-width: 650px) {
@@ -62,9 +72,20 @@
     grid-template-columns: 0.4fr 0.6fr;
     grid-template-rows: 1fr;
     grid-template-areas: "page_title nav-top";
-    background-image: linear-gradient(to right, #553872,#322043);
+    background-image: linear-gradient(to right, #AAAAAA,#888888);
+  }
+  .nav-top {
+    padding-top: 1.5rem;
+  }
+
+  .page_title-div {
+    padding-left: 2rem;
   }
 
 }
 
-
+@media (min-width: 1200px) {
+  .container-top {
+    text-align: left;
+  }
+}

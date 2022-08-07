@@ -5,7 +5,7 @@
 <p align="center">-Captain Jack Sparrow, Pirates of The Caribbean: The Curse of the Black Pearl (2003)</p>
 
 ## Project Description
-This is a web app prototype for a professional website for Jonas Persson for the Portland State summer session 2022 class CS 410 Intro To Web Development. The code in this repository is deployed at: https://jonasperssondevelops.github.com
+This is a web app prototype for a professional website for Jonas Persson for the Portland State summer session 2022 class CS 410 Intro To Web Development. The code in this repository is deployed at: https://jonasperssondevelops.github.io
 
 ## How to run the code
 To run this project open the index.html in the root project folder in a modern web browser such as Firefox 78+ or Google Chrome 81+.
@@ -15,4 +15,4 @@ To run this project open the index.html in the root project folder in a modern w
 N/A
 
 ## Where the site is deployed
-https://jonasperssondevelops.github.com
+https://jonasperssondevelops.github.io
