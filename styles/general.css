@@ -7,6 +7,7 @@
 
     --white: #ffffff;
     --lightgray: #EEEEEE;
+    --defaulttext: #333333;
 
     --gradientfootera: #00f2ff; 
     --gradientfooterb: #00ccd6;
@@ -16,6 +17,8 @@
     --decorativetexteff1: #fb00fb;
     --decorativetexteff2: #03ffff;
 
+    --quotebubblegrey: #eceff1;
+
     --navbuttonhover: #999999;
     --footer-height: 10rem;
   }
@@ -24,7 +27,7 @@ body {
     margin: 0; 
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: calc(90% + 0.5vw);
-    color: var(--gray1);
+    color: var(--defaulttext);
 }
 
 main {
@@ -42,6 +45,11 @@ h1 {
     color: #34495e;
     font-size: 3rem;
 }
+
+h2 {
+    text-align: left;
+}
+
 
 .main-top-transition-container {
     width: 100%;
@@ -68,4 +76,76 @@ h1 {
     background-color: var(--white);
     border-radius: 0px 0px calc(24px + 0.3vw) calc(24px + 0.3vw);
 }
+
+article {
+    width: 100%;
+    max-width: calc(70rem + 0.5vw);
+}
+
+.container-quote-bubble {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote-bubble-grey {
+    display: block;
+    width: 90%;
+    background: var(--quotebubblegrey);
+    border-radius: calc(24px + 0.3vw);
+    padding: 1rem;
+    padding-bottom: 2rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 650px) {
+    .quote-bubble-grey {
+        width: 80%;
+        padding: calc(0.2rem + 0.5vw);
+    }
+}
+
+.list-style-none {
+    list-style: none;
+}
+
+/* Main sectioning CSS for index.html etc. */
+.container-a {
+    max-width: calc(100rem + 0.5vw);
+    display: grid;
+    margin: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 0.9fr 0.1fr;
+    grid-template-areas: "left-col" "right-col";
+}
+  
+.container-a-item-left {
+    grid-area: left-col;
+    text-align: left;
+    padding: 1rem;
+}
+  
+.container-a-item-right {
+    grid-area: right-col;
+    background: var(--quotebubblegrey);
+}
+
+@media (min-width: 850px) {
+
+    .container-a  {
+        /* grid-template-columns: 0.7fr 0.3fr; */
+        /* ^ This causes a CSS bug to occur(!) */
+        grid-template-columns: 1.7fr 1fr;
+        grid-template-rows: 1fr;
+        grid-template-areas: "left-col right-col";
+    }
+}
+
+
+
+
+
 

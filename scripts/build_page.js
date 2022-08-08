@@ -3,10 +3,16 @@
 html = document.documentElement
 pageId = html.getAttribute('data-page_id');
 
-if (pageId = 'index')
+if (pageId == 'index')
 {
     build_page_index();
 }
+
+if (pageId == 'expr')
+{
+    build_page_index();
+}
+
 
 function build_page_index()
 {
@@ -17,7 +23,7 @@ function build_navbar()
 {
     // Get the navbar ul and build links to populate it
     const nav_top_ul = document.getElementById('nav-top-ul');
-    build_navbar_item(nav_top_ul, 'EXPERIENCE', 'work.html');
+    build_navbar_item(nav_top_ul, 'EXPERIENCE', 'experience.html');
     build_navbar_item(nav_top_ul, 'SOFTWARE PROJECTS', 'projects.html');
     build_navbar_item(nav_top_ul, 'CONTACT', 'contact.html');
 }
