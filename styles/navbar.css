@@ -46,6 +46,9 @@
 .container-top {
   display: grid;
   margin: 0;
+  /* margin: 1rem 0 0 0;
+  border-radius: calc(24px + 0.3vw) calc(24px + 0.3vw) 0 0; */
+   /* top | right | bottom | left  */
   padding-bottom: 1rem;
   grid-template-columns: 1fr;
   grid-template-rows: 0.1fr 0.9fr;

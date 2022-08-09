@@ -17,7 +17,8 @@
     --decorativetexteff1: #fb00fb;
     --decorativetexteff2: #03ffff;
 
-    --quotebubblegrey: #eceff1;
+    --aquabluelight: #a2faff;
+    --greya: #eceff1;
 
     --navbuttonhover: #999999;
     --footer-height: 10rem;
@@ -32,7 +33,6 @@ body {
 
 main {
     background-color: var(--white);
-    padding: calc(4vw);
     margin: 0;
 }
 
@@ -50,6 +50,9 @@ h2 {
     text-align: left;
 }
 
+.left-margin {
+    margin-left: calc(5vw);
+}
 
 .main-top-transition-container {
     width: 100%;
@@ -77,11 +80,6 @@ h2 {
     border-radius: 0px 0px calc(24px + 0.3vw) calc(24px + 0.3vw);
 }
 
-article {
-    width: 100%;
-    max-width: calc(70rem + 0.5vw);
-}
-
 .container-quote-bubble {
     display: flex;
     flex-direction: column;
@@ -91,7 +89,7 @@ article {
 .quote-bubble-grey {
     display: block;
     width: 90%;
-    background: var(--quotebubblegrey);
+    background: var(--greya);
     border-radius: calc(24px + 0.3vw);
     padding: 1rem;
     padding-bottom: 2rem;
@@ -116,12 +114,13 @@ article {
 .container-a {
     max-width: calc(100rem + 0.5vw);
     display: grid;
-    margin: 0;
+    margin: calc(2vw) calc(4vw) calc(2vw) calc(4vw);
     grid-template-columns: 1fr;
-    grid-template-rows: 0.9fr 0.1fr;
+    grid-template-rows: auto auto;    
+    /* grid-template-rows: 0.9fr 0.1fr; */
     grid-template-areas: "left-col" "right-col";
 }
-  
+
 .container-a-item-left {
     grid-area: left-col;
     text-align: left;
@@ -130,7 +129,9 @@ article {
   
 .container-a-item-right {
     grid-area: right-col;
-    background: var(--quotebubblegrey);
+    padding: 0 calc(2vw) 0 calc(2vw);
+    /* top | right | bottom | left */
+    background: var(--greya);
 }
 
 @media (min-width: 850px) {
@@ -144,8 +145,36 @@ article {
     }
 }
 
+/* Main sectioning CSS for index.html etc. */
 
+.container-grey-banner {
+    background: var(--greya);
+    max-width: 100%;
+}
 
+.item-grey-banner {
+    max-width: calc(100rem + 0.5vw);
+    margin: calc(2vw) calc(4vw) calc(2vw) calc(4vw);
+    padding: 1rem;
+}
+
+/* Photo gallery grid */
+.grid-two-by-two-gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-template-areas: "lft rght";
+    gap: 0 2rem;
+}
+
+.grid-two-by-two-gallery-left {
+    grid-area: lft;
+}
+
+.grid-two-by-two-gallery-right {
+    grid-area: rght;
+}
 
 
 

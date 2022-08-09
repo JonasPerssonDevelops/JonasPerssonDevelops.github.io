@@ -7,12 +7,18 @@ if (pageId == 'index')
 {
     build_page_index();
 }
-
-if (pageId == 'expr')
+else if (pageId == 'expr')
 {
     build_page_index();
 }
-
+else if (pageId == 'projects')
+{
+    build_page_index();
+}
+else if (pageId == 'contact')
+{
+    build_page_index();
+}
 
 function build_page_index()
 {
@@ -49,14 +55,3 @@ function build_navbar_item(nav_top_ul, hyperlink_text, link_path)
     li.appendChild(a);
     nav_top_ul.appendChild(li);
 }
-
-function build_footer()
-{
-
-}
-
-function build_footer_item(footer, hyperlink_text, link_path)
-{
-
-}
-
