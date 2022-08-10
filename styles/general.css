@@ -18,22 +18,26 @@
     --decorativetexteff2: #03ffff;
 
     --aquabluelight: #a2faff;
+    --aquabluedark: #00ccd6;
     --greya: #eceff1;
 
     --navbuttonhover: #999999;
     --footer-height: 10rem;
+    --formresetcolor: coral;    
+    --formbuttoncolor: #333333;
+
   }
 
 body {
-    margin: 0; 
+    background-color: var(--white);
     font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: calc(90% + 0.5vw);
     color: var(--defaulttext);
+    margin: 0;
 }
 
 main {
     background-color: var(--white);
-    margin: 0;
 }
 
 header {
@@ -117,7 +121,6 @@ h2 {
     margin: calc(2vw) calc(4vw) calc(2vw) calc(4vw);
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;    
-    /* grid-template-rows: 0.9fr 0.1fr; */
     grid-template-areas: "left-col" "right-col";
 }
 
@@ -145,8 +148,7 @@ h2 {
     }
 }
 
-/* Main sectioning CSS for index.html etc. */
-
+/* Main sectioning CSS for experience.html etc. */
 .container-grey-banner {
     background: var(--greya);
     max-width: 100%;
@@ -168,13 +170,10 @@ h2 {
     gap: 0 2rem;
 }
 
-.grid-two-by-two-gallery-left {
+.grid-two-by-two-ngallery-left {
     grid-area: lft;
 }
 
 .grid-two-by-two-gallery-right {
     grid-area: rght;
 }
-
-
-

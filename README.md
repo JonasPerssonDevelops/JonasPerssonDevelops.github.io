@@ -1,4 +1,4 @@
-# Jonas Persson Professional Website Readme <br> Project Repository: JonasPerssonDevelops/JonasPerssonDevelops.github.io
+# Jonas Persson Personal Website Readme <br> Project Repository: JonasPerssonDevelops/JonasPerssonDevelops.github.io
 
 <p align="center">The Web and the CS 410 Intro To Web Development class are proof that:<br></p>
 <p align="center"><em><q>Not all treasure is silver and gold.</q></em></p>

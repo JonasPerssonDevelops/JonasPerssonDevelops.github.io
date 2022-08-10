@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.8)  8 AUG 2022 21:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (MiKTeX 21.8) (preloaded format=pdflatex 2021.10.8)  9 AUG 2022 22:40
 entering extended mode
 **./cs410web_summer_2022-jonas_persson-journal.tex
 (cs410web_summer_2022-jonas_persson-journal.tex
@@ -352,23 +352,23 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 {C:/Users/natadekoko/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 29.
+(Font)              <7> on input line 24.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 29.
+(Font)              <5> on input line 24.
 
-Overfull \hbox (48.37683pt too wide) in paragraph at lines 45--46
+Overfull \hbox (48.37683pt too wide) in paragraph at lines 40--41
 []\OT1/cmr/m/n/10 Checked out some pro-fes-sional bio web-sites for con-tent in
 -spi-ra-tion []https://www.chrisducker.com/[],
  []
 
-[2]
-Overfull \hbox (5.48793pt too wide) in paragraph at lines 53--55
+
+Overfull \hbox (5.48793pt too wide) in paragraph at lines 48--50
 []\OT1/cmr/m/n/10 https://www.intechnic.com/blog/top-50-examples-best-responsiv
 e-designs/[] []p[]hone
  []
 
-[3]
-Overfull \hbox (40.62694pt too wide) in paragraph at lines 118--119
+[2] [3]
+Overfull \hbox (40.62694pt too wide) in paragraph at lines 113--114
 []\OT1/cmr/m/n/10 Optimal num-ber of char-ac-ters per line: 50-75 ac-cord-ing t
 o []https://baymard.com/blog/line-
  []
@@ -379,13 +379,13 @@ ut' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8325 strings out of 478927
- 127516 string characters out of 2850165
+ 8324 strings out of 478927
+ 127505 string characters out of 2850165
  439001 words of memory out of 3000000
  26079 multiletter control sequences out of 15000+600000
  407881 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,6n,66p,307b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 60i,6n,66p,307b,454s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\natadekoko\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600
 \tcrm1000.pk><C:/Users/natadekoko/AppData/Local/Programs/MiKTeX/fonts/type1/pub
 lic/amsfonts/cm/cmbx10.pfb><C:/Users/natadekoko/AppData/Local/Programs/MiKTeX/f
@@ -396,10 +396,10 @@ atadekoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pf
 b><C:/Users/natadekoko/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
 s/cm/cmr17.pfb><C:/Users/natadekoko/AppData/Local/Programs/MiKTeX/fonts/type1/p
 ublic/amsfonts/cm/cmtt10.pfb>
-Output written on cs410web_summer_2022-jonas_persson-journal.pdf (6 pages, 1099
-02 bytes).
+Output written on cs410web_summer_2022-jonas_persson-journal.pdf (6 pages, 1092
+34 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 92 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 

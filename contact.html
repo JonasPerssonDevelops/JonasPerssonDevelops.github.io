@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jonas Persson | Software Developer | About</title>
+    <title>Jonas Persson | Software Developer | Contact</title>
     <script src="scripts/build_page.js" defer></script>
+    <script src="scripts/contact_form.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&display=swap" rel="stylesheet">
@@ -14,14 +15,14 @@
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/index.css" />
+    <link rel="stylesheet" href="styles/form.css" />
   </head>
   <body>
 
 
 <header>
   <div class="container-top">
-    <h1 hidden="hidden">Jonas Persson Personal website About page</h1>
+    <h1 hidden="hidden">Jonas Persson Personal website contact page</h1>
     <a href="index.html"><div class="page_title-div"><span class="page_title-text" aria-hidden="true">JONAS PERSSON</span></div></a>
 
     <nav class="nav-top" aria-label="Jonas Persson">
@@ -35,58 +36,38 @@
 
 <main>
 
-  <div class="container-a">
+  <div class="container-grey-box">
 
-    <div class="container-a-item-left ">
-      <article>
-        <h2>About Jonas Persson</h2>
-        <p>I am a software developer currently finishing up a Computer Science B.S. degree at Portland State. I am also one of the 
-          two authors of a prototype Slack web widget for drug trials company 4G Clinical, where I was responsible for building the frontend 
-          and REST API underpinning it and leading our subteam.
-        </p>
-        <p>Previously I have run an <a href="https://www.ebay.com/usr/nipponease" target="_blank">eBay book-selling business</a>. 
-          For seven years I focused on various stock trading strategies, but my real passion is for making software work.</p>
-        <p>I enjoy working out, particularly running, and my main hobby is building a track day car where I enjoy doing custom 
-          fabrication to fit various upgrades.</p>
-        <p>I also enjoy penning safe for work jokes and posting them to  
-          <a href="https://www.instagram.com/jdmpersson" target="_blank">instagram</a> and taking Sparky to the dog park.
-          </p>
-      </article>
-
-      <article>
-        <h2>Favorite quotes</h2>
-        <div class="container-quote-bubble">
-
-            <figure class="quote-bubble-grey">
-              <blockquote>
-                  <p>Wealth consists not in having great possessions, but in having few wants.</p>
-              </blockquote>
-              <figcaption>-Epictetus</figcaption>
-            </figure>
-        
-            <figure class="quote-bubble-grey">
-              <blockquote cite="https://www.nps.gov/mlkm/learn/quotations.htm">
-                  <p>Darkness cannot drive out darkness; only light can do that. Hate cannot drive out hate; only love can do that.</p>
-              </blockquote>
-              <figcaption>-Martin Luther King Jr. <a href="https://www.nps.gov/mlkm/learn/quotations.htm" target="_blank"><cite>Strength to Love, 1963</cite></a></figcaption>
-            </figure>
-        
-            <figure class="quote-bubble-grey">
-              <blockquote cite="https://youtu.be/eAo8gnUCWzE?t=67">
-                  <p>We can't do it. We just can't ship junk.</p>
-              </blockquote>
-              <figcaption>-Steve Jobs (2011), <a href="https://youtu.be/eAo8gnUCWzE?t=67" target="_blank"><cite>Steve Jobs: We don't ship junk, HD version</cite></a></figcaption>
-            </figure>
-        </div>
-      </article>
+    <form class="form-reg">
+      <h2>Contact Form</h2>
+      <label class="form-reg-label" for="username">YOUR NAME:</label>
+      <input
+      placeholder="NAME"
+        class="form-reg-input"
+        type="text"
+        id="name"
+        name="username"
+        autocomplete="off"
+      />
+      <label class="form-reg-label" for="email">YOUR EMAIL:</label>
+      <input placeholder="EMAIL" class="form-reg-input" type="email" id="email" name="email" autocomplete="off"/>
 
 
-    </div>
+      <label class="form-reg-label" for="content">YOUR MESSAGE:</label>
+      <textarea class="form-reg-textarea" placeholder="MESSAGE" rows="8" 
+      cols="40" autocomplete="off" type="content" id="message" name="content"
+      role="textbox"></textarea>
 
+
+      <input
+    class="form-reg-button-submit"
+    type="submit"
+    value="Submit" 
+    name="submit"/><input class="form-reg-button-reset" type="reset" value="Reset" />
  
-    <div class="container-a-item-right"><aside><img class="img-profile_pic" src="images/profile_pic.jpg" alt="Photograph of Jonas Persson standing on the Washington coast." title="Photograph of Jonas Persson."></aside></div>
-    
-</div>
+    </form>
+
+  </div>
 
 </main>
 
