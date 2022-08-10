@@ -1,31 +1,25 @@
-
 .page_title-text {
-    font-family: 'Oswald', sans-serif;
-    font-size: calc(250% + 0.5vw);
-    color: var(--white);
-    text-decoration: underline;
-    /* text-shadow: -3px -1px 0px black, 3px 1px 0px var(--decorativetexteff1); */
-
-    /* background: linear-gradient(to right, #b01b00, #00b06d);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text; */
+  font-family: "Oswald", sans-serif;
+  font-size: calc(250% + 0.5vw);
+  color: var(--white);
+  text-decoration: underline;
 }
 
 header a:link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 header a:visited {
-    text-decoration: none;
+  color: var(--white);
+  text-decoration: none;
 }
 
 header a:hover {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-
 @media (min-width: 650px) {
-    .page_title-text {
-        text-decoration: none;
-    }
+  .page_title-text {
+    text-decoration: none;
+  }
 }

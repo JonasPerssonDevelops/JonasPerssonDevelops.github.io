@@ -1,10 +1,9 @@
-
 .img-profile_pic {
-    border-radius: 50%;
-    display: block;
-    max-width: 300px;
-    max-height: 293px;
-    width: auto;
-    height: auto;
-    margin: calc(4vw) auto calc(4vw) auto;
+  border-radius: 50%;
+  display: block;
+  max-width: 300px;
+  max-height: 293px;
+  width: auto;
+  height: auto;
+  margin: calc(4vw) auto calc(4vw) auto;
 }

@@ -7,10 +7,16 @@
     <title>Jonas Persson | Software Developer | Contact</title>
     <script src="scripts/build_page.js" defer></script>
     <script src="scripts/contact_form.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="styles/general.css" />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/footer.css" />
@@ -18,88 +24,150 @@
     <link rel="stylesheet" href="styles/form.css" />
   </head>
   <body>
+    <header>
+      <div class="container-top">
+        <h1 hidden="hidden">
+          Contact page example with a form that does not actually submit
+        </h1>
+        <a href="index.html" aria-hidden="true"
+          ><div class="page_title-div">
+            <span class="page_title-text" aria-hidden="true"
+              >JONAS PERSSON</span
+            >
+          </div></a
+        >
 
+        <nav class="nav-top" aria-label="Jonas Persson">
+          <ul
+            class="flex-container-nav"
+            role="menubar"
+            aria-label="Jonas Persson"
+            id="nav-top-ul"
+          ></ul>
+        </nav>
+      </div>
+    </header>
 
-<header>
-  <div class="container-top">
-    <h1 hidden="hidden">Jonas Persson Personal website contact page</h1>
-    <a href="index.html"><div class="page_title-div"><span class="page_title-text" aria-hidden="true">JONAS PERSSON</span></div></a>
-
-    <nav class="nav-top" aria-label="Jonas Persson">
-      <ul class="flex-container-nav" role="menubar" aria-label="Jonas Persson" id="nav-top-ul"></ul>
-    </nav>
-
-  </div>
-</header>
-
-<div class="main-top-transition-container"><div class="main-top-rounded-corners"></div></div>
-
-<main>
-
-  <div class="container-grey-box">
-
-    <form class="form-reg">
-      <h2>Contact Form</h2>
-      <label class="form-reg-label" for="username">YOUR NAME:</label>
-      <input
-      placeholder="NAME"
-        class="form-reg-input"
-        type="text"
-        id="name"
-        name="username"
-        autocomplete="off"
-      />
-      <label class="form-reg-label" for="email">YOUR EMAIL:</label>
-      <input placeholder="EMAIL" class="form-reg-input" type="email" id="email" name="email" autocomplete="off"/>
-
-
-      <label class="form-reg-label" for="content">YOUR MESSAGE:</label>
-      <textarea class="form-reg-textarea" placeholder="MESSAGE" rows="8" 
-      cols="40" autocomplete="off" type="content" id="message" name="content"
-      role="textbox"></textarea>
-
-
-      <input
-    class="form-reg-button-submit"
-    type="submit"
-    value="Submit" 
-    name="submit"/><input class="form-reg-button-reset" type="reset" value="Reset" />
- 
-    </form>
-
-  </div>
-
-</main>
-
-<div class="main-bottom-transition-container"><div class="main-bottom-rounded-corners"></div></div>  
-
-<footer>
-<div class="flex-container-footer">
-  
-  <div class="container-social-button">
-    <div class="item-social-button-logo" aria-hidden="true">
-      <a href="https://www.instagram.com/jdmpersson" target="_blank" aria-hidden="true" tabindex=-1><img class="social-button-logo" src="images/Instagram_Glyph_White.svg" aria-hidden="true" alt="Instagram logo"></a>
+    <div class="main-top-transition-container">
+      <div class="main-top-rounded-corners"></div>
     </div>
-    <div class="item-social-button-subtext"><a href="https://www.instagram.com/jdmpersson" target="_blank">Instagram</a></div>
-  </div>
 
-  <div class="container-social-button">
-    <div class="item-social-button-logo">
-        <a href="https://github.com/JonasPerssonDevelops" target="_blank" aria-hidden="true" tabindex=-1><img class="social-button-logo" src="images/GitHub-Mark-Light-120px-plus.png" aria-hidden="true" alt="GitHub logo"></a>
+    <main>
+      <div class="container-grey-box">
+        <form class="form-reg">
+          <h2>Contact Form</h2>
+          <label class="form-reg-label" for="name">YOUR NAME:</label>
+          <input
+            placeholder="NAME"
+            class="form-reg-input"
+            type="text"
+            id="name"
+            name="name"
+            autocomplete="off"
+          />
+          <label class="form-reg-label" for="email">YOUR EMAIL:</label>
+          <input
+            placeholder="EMAIL"
+            class="form-reg-input"
+            type="email"
+            id="email"
+            name="email"
+            autocomplete="off"
+          />
+
+          <label class="form-reg-label" for="message">YOUR MESSAGE:</label>
+          <textarea
+            class="form-reg-textarea"
+            placeholder="MESSAGE"
+            rows="8"
+            cols="40"
+            autocomplete="off"
+            type="content"
+            id="message"
+            name="message"
+            role="textbox"
+          ></textarea>
+
+          <input
+            class="form-reg-button-submit"
+            type="submit"
+            value="Submit"
+          /><input class="form-reg-button-reset" type="reset" value="Reset" />
+        </form>
+      </div>
+    </main>
+
+    <div class="main-bottom-transition-container">
+      <div class="main-bottom-rounded-corners"></div>
     </div>
-    <div class="item-social-button-subtext"><a href="https://github.com/JonasPerssonDevelops" target="_blank">GitHub Profile</a></div>
-  </div>
 
-  <div class="container-social-button">
-    <div class="item-social-button-logo">
-      <a href="https://www.facebook.com/profile.php?id=100014552645532" target="_blank" aria-hidden="true" tabindex=-1><img class="social-button-logo" src="images/f_logo_RGB-White_250.png" aria-hidden="true" alt="Facebook logo"></a>
-    </div>
-    <div class="item-social-button-subtext"><a href="https://www.facebook.com/profile.php?id=100014552645532" target="_blank">Facebook</a></div>
-  </div>
+    <footer>
+      <div class="flex-container-footer">
+        <div class="container-social-button">
+          <div class="item-social-button-logo" aria-hidden="true">
+            <a
+              href="https://www.instagram.com/jdmpersson"
+              target="_blank"
+              aria-hidden="true"
+              tabindex="-1"
+              ><img
+                class="social-button-logo"
+                src="images/Instagram_Glyph_White.svg"
+                aria-hidden="true"
+                alt="Instagram logo"
+            /></a>
+          </div>
+          <div class="item-social-button-subtext">
+            <a href="https://www.instagram.com/jdmpersson" target="_blank"
+              >Instagram</a
+            >
+          </div>
+        </div>
 
-</div>
-</footer>
+        <div class="container-social-button">
+          <div class="item-social-button-logo">
+            <a
+              href="https://github.com/JonasPerssonDevelops"
+              target="_blank"
+              aria-hidden="true"
+              tabindex="-1"
+              ><img
+                class="social-button-logo"
+                src="images/GitHub-Mark-Light-120px-plus.png"
+                aria-hidden="true"
+                alt="GitHub logo"
+            /></a>
+          </div>
+          <div class="item-social-button-subtext">
+            <a href="https://github.com/JonasPerssonDevelops" target="_blank"
+              >GitHub Profile</a
+            >
+          </div>
+        </div>
 
-
+        <div class="container-social-button">
+          <div class="item-social-button-logo">
+            <a
+              href="https://www.facebook.com/profile.php?id=100014552645532"
+              target="_blank"
+              aria-hidden="true"
+              tabindex="-1"
+              ><img
+                class="social-button-logo"
+                src="images/f_logo_RGB-White_250.png"
+                aria-hidden="true"
+                alt="Facebook logo"
+            /></a>
+          </div>
+          <div class="item-social-button-subtext">
+            <a
+              href="https://www.facebook.com/profile.php?id=100014552645532"
+              target="_blank"
+              >Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

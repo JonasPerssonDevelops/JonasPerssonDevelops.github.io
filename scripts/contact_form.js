@@ -1,6 +1,6 @@
-let form = document.querySelector('form');
+let form = document.querySelector("form");
 
-form.addEventListener('submit', handleSubmit);
+form.addEventListener("submit", handleSubmit);
 
 function handleSubmit(event) {
   // Capture element values:
@@ -11,34 +11,32 @@ function handleSubmit(event) {
   let error_message = "";
   let error_found = false;
 
-  if (!name) // No value was input
-  {
+  if (!name) {
+    // No value was input
     error_found = true;
-    error_message = error_message.concat("No name was entered. Please enter your name.\n");
+    error_message = error_message.concat(
+      "No name was entered. Please enter your name.\n"
+    );
   }
 
-  if (!email) // No value was input
-  {
+  if (!email) {
+    // No value was input
     error_found = true;
-    error_message = error_message.concat("No email address was entered. Please enter your email address.\n");
+    error_message = error_message.concat(
+      "No email address was entered. Please enter your email address.\n"
+    );
   }
 
-  if (!message) // No value was input
-  {
+  if (!message) {
+    // No value was input
     error_found = true;
-    error_message = error_message.concat("No message was entered. Please enter a message.\n");
-
+    error_message = error_message.concat(
+      "No message was entered. Please enter a message.\n"
+    );
   }
 
-  if (error_found)
-  {
+  if (error_found) {
     alert(error_message);
-    event.preventDefault();
-  }
-  else // Reset form fields if everything was entered correctly
-  {
-    document.getElementById("name").value = "";
-    document.getElementById("email").value = "";
-    document.getElementById("password").value = "";
+    event.preventDefault(); // Leave previous user input so they can correct it
   }
 }
