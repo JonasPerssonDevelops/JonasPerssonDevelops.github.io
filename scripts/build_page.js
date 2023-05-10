@@ -20,7 +20,7 @@ function build_navbar() {
   const nav_top_ul = document.getElementById("nav-top-ul");
   build_navbar_item(nav_top_ul, "main page", "index.html");
   build_navbar_item(nav_top_ul, "experience", "experience.html");
-  build_navbar_item(nav_top_ul, "software projects", "projects.html");
+  build_navbar_item(nav_top_ul, "projects", "projects.html");
   build_navbar_item(nav_top_ul, "contact", "contact.html");
 }
 

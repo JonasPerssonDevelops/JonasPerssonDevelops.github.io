@@ -24,7 +24,7 @@
   --formresetcolor: coral;
   --formbuttoncolor: #333333;
 
-  --linkcolor: #FFFFFF;
+  --linkcolor: #005C61;
   --linkvisitedcolor: ;
 }
 
@@ -61,6 +61,8 @@ a:link {
 a:visited {
   color: var(--defaulttext);
 }
+
+
 
 .left-margin {
   margin-left: calc(5vw);
