@@ -1,0 +1,46 @@
+
+.button-email-show {
+  width: 47%;
+  border-radius: 0.2rem;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--white);
+  background-color: var(--greyforwhitetext);
+  padding: 0.7rem 0.7rem;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1.7rem;
+  border: 0.1rem solid var(--green);
+  color: var(--white);
+  text-align: center;
+  text-decoration: none;
+}
+
+.button-email-show:hover {
+  background-color: var(--formresetcolor);
+  border-color: var(--navy);
+}
+
+.form-reg-button-reset {
+  width: 47%;
+  border-radius: 0.2rem;
+  font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+  font-weight: bold;
+  color: var(--green);
+  background-color: transparent;
+  padding: 0.7rem 0.7rem;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1.7rem;
+  border: 0.1rem solid var(--green);
+  text-align: center;
+  text-decoration: none;
+}
+
+.form-reg-button-reset:hover {
+  background-color: var(--red);
+  border-color: var(--red);
+  color: var(--white);
+}
