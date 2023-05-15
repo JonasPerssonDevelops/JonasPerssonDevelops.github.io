@@ -45,14 +45,14 @@
   height: auto;
 }
 
-@media (min-width: 650px) {
+@media screen and (min-width: 650px) {
   .social-button-logo {
     width: 70px;
     height: auto;
   }
 }
 
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .social-button-logo {
     width: 100px;
     height: auto;

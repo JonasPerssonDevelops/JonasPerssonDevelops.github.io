@@ -115,7 +115,7 @@ a:visited {
   text-align: center;
 }
 
-@media only screen and (min-width: 650px) {
+@media screen and (min-width: 650px) {
   .quote-bubble-grey {
     width: 80%;
     padding: calc(0.2rem + 0.5vw);
@@ -149,7 +149,7 @@ a:visited {
   background: var(--greya);
 }
 
-@media only screen and (min-width: 850px) {
+@media screen and (min-width: 850px) {
   .container-a {
     /* grid-template-columns: 0.7fr 0.3fr; */
     /* ^ This causes a CSS bug to occur(!) */
