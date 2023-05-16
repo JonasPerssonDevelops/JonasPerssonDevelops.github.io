@@ -7,6 +7,8 @@
   --lightgray: #eeeeee;
   --defaulttext: #333333;
 
+  --sitebgcolor: #ffffff;
+
   --gradientfootera: #00f2ff;
   --gradientfooterb: #00ccd6;
   --gradientheadera: #aaaaaa;
@@ -31,7 +33,7 @@
 }
 
 body {
-  background-color: var(--white);
+  background-color: var(--sitebgcolor);
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: calc(90% + 0.5vw);
   color: var(--defaulttext);
@@ -39,7 +41,7 @@ body {
 }
 
 main {
-  background-color: var(--white);
+  background-color: var(--sitebgcolor);
 }
 
 header {
@@ -75,7 +77,7 @@ a:visited {
 .main-top-rounded-corners {
   width: 100%;
   height: calc(26px + 0.3vw);
-  background-color: var(--white);
+  background-color: var(--sitebgcolor);
   border-radius: calc(24px + 0.3vw) calc(24px + 0.3vw) 0px 0px;
 }
 
@@ -92,8 +94,17 @@ a:visited {
 .main-bottom-rounded-corners {
   width: 100%;
   height: calc(26px + 0.3vw);
-  background-color: var(--white);
+  background-color: var(--sitebgcolor);
   border-radius: 0px 0px calc(24px + 0.3vw) calc(24px + 0.3vw);
+}
+
+.ios-graphic-bug-fix {
+  position: relative; 
+  width: 100%;
+  background-color: var(--sitebgcolor);
+  height:10px;
+  margin-bottom:-2px;
+  margin-top: -2px;
 }
 
 .container-quote-bubble {
