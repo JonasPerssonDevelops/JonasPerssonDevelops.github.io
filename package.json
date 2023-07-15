@@ -1,0 +1,23 @@
+{
+  "name": "jonasperssondevelops.github.io",
+  "version": "1.0.0",
+  "description": "<p align=\"center\"><em>The Web is proof that...</em><br></p>\r <p align=\"center\"><em><q>Not all treasure is silver and gold.</q></em></p>\r <p align=\"center\">-Captain Jack Sparrow, Pirates of The Caribbean: The Curse of the Black Pearl (2003)</p>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "selenium-webdriver": "^4.9.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.2.0"
+  }
+}

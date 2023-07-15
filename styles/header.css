@@ -1,6 +1,6 @@
 .page_title-text {
   font-family: "Oswald", sans-serif;
-  font-size: calc(250% + 0.5vw);
+  font-size: calc(300% + 1vw);
   color: var(--white);
   text-decoration: underline;
 }

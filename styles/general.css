@@ -25,23 +25,26 @@
 
   --navbuttonhover: #999999;
   --footer-height: 10rem;
-  --formresetcolor: coral;
-  --formbuttoncolor: #333333;
+
+  --btnbordercolor: coral;
+  --buttonemailcolor: #737373;
+  --buttonemailcolorb: #555555;
 
   --linkcolor: #005C61;
-  --linkvisitedcolor: ;
+  --linkvisitedcolor: #333333;
+
+  --buttonactivecolor: #00ccd6;
 }
 
 body {
   background-color: var(--sitebgcolor);
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
-  font-size: calc(90% + 0.5vw);
   color: var(--defaulttext);
   margin: 0;
 }
 
-main {
-  background-color: var(--sitebgcolor);
+p {
+  font-size: calc(90% + 0.15vw);
 }
 
 header {
@@ -64,8 +67,12 @@ a:visited {
   color: var(--defaulttext);
 }
 
-.left-margin {
+.std-margin-left {
   margin-left: calc(5vw);
+}
+
+address {
+  font-style: normal;
 }
 
 .main-top-transition-container {
@@ -126,13 +133,6 @@ a:visited {
   text-align: center;
 }
 
-@media screen and (min-width: 650px) {
-  .quote-bubble-grey {
-    width: 80%;
-    padding: calc(0.2rem + 0.5vw);
-  }
-}
-
 .list-style-none {
   list-style: none;
 }
@@ -160,6 +160,13 @@ a:visited {
   background: var(--greya);
 }
 
+@media screen and (min-width: 650px) {
+  .quote-bubble-grey {
+    width: 70%;
+    padding: calc(0.2rem + 0.5vw);
+  }
+}
+
 @media screen and (min-width: 850px) {
   .container-a {
     /* grid-template-columns: 0.7fr 0.3fr; */
@@ -168,12 +175,18 @@ a:visited {
     grid-template-rows: 1fr;
     grid-template-areas: "left-col right-col";
   }
+  body {
+    font-size: 1rem;
+  }
+  p {
+    font-size: 1rem;
+  }
 }
 
 /* Main sectioning CSS for experience.html etc. */
 .container-grey-banner {
   background: var(--greya);
-  max-width: 100%;
+  width: 90%;
 }
 
 .item-grey-banner {
