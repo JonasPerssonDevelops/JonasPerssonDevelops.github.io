@@ -1,6 +1,6 @@
 /**
  * @module test-integration-contact-page
- * @description This module contains integration tests for contact.html
+ * @description Integration tests for contact.html
  * @author Jonas Persson
  * /
 */

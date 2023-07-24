@@ -1,6 +1,8 @@
 /**
  * @module test-run-all
- * @description This module runs all soft. dev. setup, integration, and unit tests
+ * @description 
+ * This module runs all tests of the web site (environment setup checks, integration, and unit)
+ * when executed.
  * @author Jonas Persson
  * /
 */
