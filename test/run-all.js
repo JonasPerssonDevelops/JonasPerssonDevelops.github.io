@@ -1,8 +1,7 @@
 /**
  * @module test-run-all
  * @description 
- * This module runs all tests of the web site (environment setup checks, integration, and unit)
- * when executed.
+ * This module runs all tests of the web site (environment setup checks, integration, and unit).
  * @author Jonas Persson
  * /
 */
