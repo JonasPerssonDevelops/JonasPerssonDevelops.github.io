@@ -12,11 +12,11 @@ Tests can be run under Node.js with `npm test` at the command prompt (from a pro
 
 ## 🏗️ Testing Framework Installation Instructions
 
-Install Node.js and Npm.
+Install **Node.js** and then **Npm** on your system.
 
-From the project directory run the command ```npm install mocha chai --save-dev```.
+From the project directory run the command: ```npm install mocha chai --save-dev```.
 
 Set up the Selenium-Webdriver browser automation tool by following the instructions at: 
 <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment">MDN Web Docs: Setting up your own test automation environment</a>
 
-Lastly, replace the path in ```local-path.js``` with the path to the root of the project directory.
+Lastly, replace the path in <samp>test/local-path.js</samp> with the path to the root of the project directory.
