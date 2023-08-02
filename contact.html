@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jonas Persson | Software Developer | Contact</title>
     <script src="scripts/build_page.js" defer></script>
+    <script src="scripts/show-email.js" defer></script>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -47,36 +48,35 @@
       <div class="main-top-rounded-corners"></div>
     </div>
     <div class="ios-graphic-bug-fix"></div>
-    
-      <h1 class="left-margin">Contact Information</h1>
+
+      <h1 class="std-margin-left">Contact Information</h1>
 
     </header>
 
 
     <main>
       <section>
-        <address>
-       
-    <button class="button-email-show" aria-label="Display contact email address">Show email address</button>
-    <input class="form-reg-button-reset" type="reset" value="Reset" />
+        <!-- <button onClick="copyEmailAddr()">do</button> -->
+        <button id="do">do</button>
 
+        <address class="std-margin-left">
+          <p>
+          <div class="container-email">
+            <div class="container-email-item-show">
+              <button class="button-email-show" id="show-email" type="button">Show email address</button>
+            </div>
 
+            <div class="container-email-item-address">
+              <span class="email-address" id="email-address"></span>
+            </div>
+            <div class="container-email-item-copy"><button class="button-copy"></button></div>
+          </div>
+         
+          Portland Oregon based
+          </p>
         </address>
       </section>
     </main>
-
-
-    <div class="container-a">
-      <div class="container-a-item-left">
-       Left
-      </div>
-
-      <div class="container-a-item-right">
-        Right
-        </aside>
-      </div>
-    </div>
-
 
 
 

@@ -39,7 +39,6 @@
 }
 
 .a-nav:hover {
-  /* color: var(--white); */
   color: #999999;
   text-decoration: none;
 }
@@ -60,7 +59,6 @@
 }
 
 .page_title-div {
-  /* background-color: red; */
   grid-area: page_title;
   padding: 1rem;
 }
