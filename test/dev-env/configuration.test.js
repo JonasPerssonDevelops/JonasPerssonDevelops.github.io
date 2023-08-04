@@ -16,6 +16,7 @@ const testPage2 = projectRootPath + '/test/data/selenium-setup-test02.html';
 
 // Tests
 suite('Development environment configuration checks. These pass when the env has been set up correctly.', () => {
+    
     test('Mocha starts the test, Selenium starts, the Webdriver function returns the title of the page, and Chai tests the title for a match.', async () => {
         await driver.get(testPage1);
         let title = await driver.getTitle();
@@ -31,6 +32,12 @@ suite('Development environment configuration checks. These pass when the env has
     teardown('Dev. env. failure', function () {
         if (this.currentTest.state === 'failed') {
             devEnvCorrectlySetup = false;
+        }
+    });
+
+    suiteTeardown(function () {
+        if(!devEnvCorrectlySetup) {
+            driver.quit();
         }
     });
 });

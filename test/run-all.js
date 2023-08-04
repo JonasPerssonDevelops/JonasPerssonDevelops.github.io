@@ -10,15 +10,25 @@ require('./globals.js');
 const chai = require('chai');
 
 // Tests
+
 require('./dev-env/configuration.test.js');
 
-suite('Testing Framework Sample Tests', function () {
-
-    setup( function () {
-        if (!global.devEnvCorrectlySetup) {
+suite('Integration Tests', function () {
+    
+    suiteSetup(function () {
+        if (!devEnvCorrectlySetup) {
             this.skip();
         }
     });
+    
+    // Add integration tests here with require()
+    
+    suiteTeardown(function () {
+        driver.quit();
+    });
+});
+
+suite('Testing Framework Sample Tests', function () {
 
     test('Test case 3', async () => {
         let i = 2;
@@ -29,5 +39,4 @@ suite('Testing Framework Sample Tests', function () {
         let i = 3;
         chai.expect(i).to.equal(3);
     });
-
 });
