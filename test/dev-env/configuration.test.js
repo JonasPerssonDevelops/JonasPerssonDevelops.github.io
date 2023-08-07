@@ -36,7 +36,7 @@ suite('Development environment configuration checks. These pass when the env has
     });
 
     suiteTeardown(function () {
-        if(!devEnvCorrectlySetup) {
+        if (!devEnvCorrectlySetup) {
             driver.quit();
         }
     });

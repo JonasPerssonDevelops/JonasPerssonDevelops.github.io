@@ -1,16 +1,21 @@
 /**
  * @module test-run-all
- * @description 
- * This module runs all tests (development environment setup check, integration, and unit).
+ * @description This module runs all tests (development environment setup check, integration, and unit).
  * @author Jonas Persson
  * /
 */
 
 require('./globals.js');
-const chai = require('chai');
 
 // Tests
+suite('Unit Tests', function () {
 
+    // Add unit tests here with require()
+    require('./unit/string-manip.test.js');
+
+});
+
+// Development environment setup tests for ensuring that integration tests can be run
 require('./dev-env/configuration.test.js');
 
 suite('Integration Tests', function () {
@@ -25,18 +30,5 @@ suite('Integration Tests', function () {
     
     suiteTeardown(function () {
         driver.quit();
-    });
-});
-
-suite('Testing Framework Sample Tests', function () {
-
-    test('Test case 3', async () => {
-        let i = 2;
-        chai.expect(i).to.equal(2);
-    });
-
-    test('Test case 4', async () => {
-        let i = 3;
-        chai.expect(i).to.equal(3);
     });
 });
