@@ -1,6 +1,6 @@
 /**
  * @module string-manip
- * @description Module for specialized string operations
+ * @description Module for string operations
  * @author Jonas Persson
  */
 

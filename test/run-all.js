@@ -27,6 +27,7 @@ suite('Integration Tests', function () {
     });
     
     // Add integration tests here with require()
+    require('./int/contact-page.test.js');
     
     suiteTeardown(function () {
         driver.quit();

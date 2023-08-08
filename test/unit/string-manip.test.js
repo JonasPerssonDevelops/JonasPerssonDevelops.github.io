@@ -9,6 +9,6 @@ const sm = require('../../scripts/string-manip.js');
 
 suite('string-manip Module Tests', function () {
     test('reverseString() reverses the order of characters in a string', function () {
-        assert.equal('12345', sm.reverseString('54321'));
+        assert.strictEqual('12345', sm.reverseString('54321'));
     });
 });
