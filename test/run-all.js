@@ -6,17 +6,20 @@
 */
 
 require('./globals.js');
+const path = require('node:path');
+const nodeDir = require('node-dir');
 
-// Tests
+// Catalogue all test files:
+const unitTests = nodeDir.files(path.normalize(__dirname + '/unit'), {sync:true});
+const intTests = nodeDir.files(path.normalize(__dirname + '/int'), {sync:true});
+
 suite('Unit Tests', function () {
-
-    // Add unit tests here with require()
-    require('./unit/string-manip.test.js');
-
+    unitTests.forEach(function (test) {
+        require(test);
+    });
 });
 
-// Development environment setup tests for ensuring that integration tests can be run
-require('./dev-env/configuration.test.js');
+require('./dev-env/configuration.test.js'); // Development environment setup tests for ensuring that integration tests can be run
 
 suite('Integration Tests', function () {
     
@@ -26,8 +29,9 @@ suite('Integration Tests', function () {
         }
     });
     
-    // Add integration tests here with require()
-    require('./int/contact-page.test.js');
+    intTests.forEach(function (test) {
+        require(test);
+    });
     
     suiteTeardown(function () {
         driver.quit();
