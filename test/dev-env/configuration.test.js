@@ -6,11 +6,10 @@
 */
 
 require('../globals.js');
-const localPath = require('../local-path.js');
 const chai = require('chai');
 
 // Test Setup
-const projectRootPath = 'file:///' + localPath + '/JonasPerssonDevelops.github.io';
+const projectRootPath = 'file:///' + websiteRootPath;
 const testPage1 = projectRootPath + '/test/data/selenium-setup-test01.html';
 const testPage2 = projectRootPath + '/test/data/selenium-setup-test02.html';
 

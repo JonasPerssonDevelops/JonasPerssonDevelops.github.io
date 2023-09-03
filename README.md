@@ -18,5 +18,3 @@ From the project directory run the command: ```npm install mocha chai node-dir -
 
 Set up the Selenium-Webdriver browser automation tool by following the instructions at: 
 <a href="https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Cross_browser_testing/Your_own_automation_environment">MDN Web Docs: Setting up your own test automation environment</a>
-
-Lastly, replace the path in <samp>test/local-path.js</samp> with the path to the root of the project directory.

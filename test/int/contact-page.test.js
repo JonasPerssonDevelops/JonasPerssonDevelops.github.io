@@ -4,9 +4,7 @@
  * @author Jonas Persson
  * /
 */
-
 require('../globals.js');
-const localPath = require('../local-path.js');
 
 // Tools
 const assert = require('chai').assert;
@@ -21,7 +19,7 @@ const dm = init_dm.split("").reverse().join("");
 const ad = user + dm;
 
 // Test Setup
-const contactPage = 'file:///' + localPath + '/JonasPerssonDevelops.github.io/contact.html';
+const contactPage = 'file:///' + websiteRootPath + '/contact.html';
 
 // Tests
 suite('jonaspersson.dev/contact.html', () => {
