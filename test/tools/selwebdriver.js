@@ -6,5 +6,5 @@
  * /
 */
 
-global.selwebdriver = require('selenium-webdriver');
+selwebdriver = require('selenium-webdriver');
 global.driver = new selwebdriver.Builder().forBrowser('firefox').build();

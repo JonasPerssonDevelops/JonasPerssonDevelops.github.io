@@ -4,6 +4,7 @@
  * @author Jonas Persson
  * /
 */
+
 require('./globals.js');
 const path = require('node:path');
 const nodeDir = require('node-dir');

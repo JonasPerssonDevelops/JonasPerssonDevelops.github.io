@@ -36,6 +36,16 @@
   --buttonactivecolor: #00ccd6;
 }
 
+.visually-hidden {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  height: 1px;
+  width: 1px;
+  overflow:hidden
+}
+
 body {
   background-color: var(--sitebgcolor);
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
@@ -44,7 +54,7 @@ body {
 }
 
 p {
-  font-size: calc(90% + 0.15vw);
+  font-size: calc(90% + 0.15vw); /* Variable font size for mobile <850px */
 }
 
 header {
@@ -67,12 +77,38 @@ a:visited {
   color: var(--defaulttext);
 }
 
+address {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.align-vert-middle {
+  vertical-align: middle;
+}
+
+.responsive-height-40px {
+  height: calc(40px + 0.15vw);
+  width: auto;
+}
+
+.responsive-height-34px {
+  height: calc(34px + 0.15vw);
+  width: auto;
+}
+
+.padding-responsive-left-2px {
+  padding-left: calc(2px + 0.15vw);
+}
+
 .std-margin-left {
   margin-left: calc(5vw);
 }
 
-address {
-  font-style: normal;
+.responsive-margin-bottom-5px {
+  margin-bottom: calc(20px + 0.15vw);
 }
 
 .main-top-transition-container {
@@ -135,6 +171,10 @@ address {
 
 .list-style-none {
   list-style: none;
+}
+
+.list-no-indent {
+  padding-left: 0;
 }
 
 /* Main sectioning CSS for index.html etc. */

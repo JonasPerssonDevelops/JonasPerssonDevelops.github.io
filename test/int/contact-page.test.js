@@ -1,7 +1,8 @@
 /**
- * @module test-integration contact-page
+ * @module test-integration-contact-page
  * @description Integration tests for jonaspersson.dev/contact.html
  * @author Jonas Persson
+ * @copyright (c) 2023 Jonas Persson
  * /
 */
 require('../globals.js');
