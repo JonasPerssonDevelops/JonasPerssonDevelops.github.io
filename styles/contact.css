@@ -1,3 +1,7 @@
+li {
+  margin-bottom: calc(6px + 0.15vw);
+}
+
 .container-email {
   display: flex;
   flex-direction: row;

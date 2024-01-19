@@ -108,7 +108,11 @@ address {
 }
 
 .responsive-margin-bottom-5px {
-  margin-bottom: calc(20px + 0.15vw);
+  margin-bottom: calc(40px + 0.15vw);
+}
+
+.responsive-margin-right-6px {
+  margin-right: calc(6px + 0.15vw);
 }
 
 .main-top-transition-container {
