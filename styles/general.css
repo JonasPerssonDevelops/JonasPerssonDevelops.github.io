@@ -54,19 +54,24 @@ body {
 }
 
 p {
+  font-weight: 400;
   font-size: calc(90% + 0.15vw); /* Variable font size for mobile <850px */
+  margin-top: 0.7rem;
 }
 
 header {
   margin: 0;
 }
 
-h1 {
-  font-size: 2.5rem;
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 600;
+  font-family:'Open Sans', sans-serif;
+  margin: 0rem 0rem 0.7rem 0rem;
+    /* top | right | bottom | left */
 }
 
 h2 {
-  text-align: left;
+  font-size: 2.3rem;
 }
 
 a:link {
@@ -194,7 +199,7 @@ address {
 .container-a-item-left {
   grid-area: left-col;
   text-align: left;
-  padding: 1rem;
+  padding: 0 calc(2vw) 0 calc(2vw);
 }
 
 .container-a-item-right {
@@ -231,6 +236,7 @@ address {
 .container-grey-banner {
   background: var(--greya);
   width: 90%;
+  padding: 1rem 1rem;
 }
 
 .item-grey-banner {

@@ -5,7 +5,7 @@ li {
 .container-email {
   display: flex;
   flex-direction: row;
-  margin: calc(2vw) 5% calc(2vw) 0;
+  margin: 0.7rem 5% 0.7rem 0;
           /* top | right | bottom | left */
 }
 

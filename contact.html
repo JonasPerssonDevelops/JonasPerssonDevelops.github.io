@@ -1,49 +1,40 @@
 <!DOCTYPE html>
 <html lang="en" data-page_id="contact">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Jonas Persson | Software Developer | Contact</title>
-    <script src="scripts/build_page.js" defer></script>
-    <script src="scripts/string-manip.js" defer></script>
-    <script src="scripts/contact-page-logic.js" defer></script>
-    <script src="scripts/string-copy.js" defer></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Open+Sans&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles/general.css" />
-    <link rel="stylesheet" href="styles/navbar.css" />
-    <link rel="stylesheet" href="styles/footer.css" />
-    <link rel="stylesheet" href="styles/header.css" />
-    <link rel="stylesheet" href="styles/contact.css" />
-  </head>
-  <body>
-    <header>
-      <div class="container-top">
-        <a href="index.html" aria-hidden="true"
-          ><div class="page_title-div">
-            <span class="page_title-text" aria-hidden="true"
-              >JONAS PERSSON</span
-            >
-          </div></a
-        >
 
-        <nav class="nav-top" aria-label="Jonas Persson">
-          <ul
-            class="flex-container-nav"
-            role="menubar"
-            id="nav-top-ul"
-          ></ul>
-        </nav>
-      </div>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jonas Persson | Software Developer | Contact</title>
+  <script src="scripts/build_page.js" defer></script>
+  <script src="scripts/string-manip.js" defer></script>
+  <script src="scripts/contact-page-logic.js" defer></script>
+  <script src="scripts/string-copy.js" defer></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Open+Sans:wght@600&family=Open+Sans&display=swap"
+    rel="stylesheet" /> <!-- Oswald = name in heading, Open Sans = body and p text, Open Sans 600 = h1, h2,...  -->
+  <link rel="stylesheet" href="styles/general.css" />
+  <link rel="stylesheet" href="styles/navbar.css" />
+  <link rel="stylesheet" href="styles/footer.css" />
+  <link rel="stylesheet" href="styles/header.css" />
+  <link rel="stylesheet" href="styles/contact.css" />
+</head>
+
+<body>
+  <header>
+    <div class="container-top">
+      <a href="index.html" aria-hidden="true">
+        <div class="page_title-div">
+          <span class="page_title-text" aria-hidden="true">JONAS PERSSON</span>
+        </div>
+      </a>
+
+      <nav class="nav-top" aria-label="Jonas Persson">
+        <ul class="flex-container-nav" role="menubar" id="nav-top-ul"></ul>
+      </nav>
+    </div>
 
 
     <div class="main-top-transition-container">
@@ -51,144 +42,139 @@
     </div>
     <div class="ios-graphic-bug-fix"></div>
 
-      <h1 class="std-margin-left" id="h1">Contact Information</h1>
+    <h2 class="std-margin-left">Contact Information</h1>
 
-    </header>
+  </header>
 
-    <main>
-      <section>
-        <address class="std-margin-left">
-          <div class="container-email">
-            <div class="container-email-item-show">
-              <button class="button-email-show" id="show-email" type="button">Show email address</button>
-            </div>
+  <main>
+    <section>
 
-            <div class="container-email-item-address">
-              <span class="email-address" id="email-address"></span>
-            </div>
-            <div class="container-email-item-copy" id="copy-email"><button class="button-copy" aria-label="Copy email"></button></div>
+      <address class="std-margin-left">
+
+        <a class="link-no-decoration" href="tel:+19493954620"><img
+            class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px"
+            src="images/icon-phone.png" aria-hidden="true" alt="phone icon"><span class="visually-hidden">My phone
+            number +1 (949) 395-4620</span><span class="bold" aria-hidden="true">+1 (949) 395-4620</span></a>
+
+        <div class="container-email">
+          <div class="container-email-item-show">
+            <button class="button-email-show" id="show-email" type="button">Show email address</button>
           </div>
-         
-          <span class="bold">Portland, Oregon.</span>
 
-
-        </address>
-
-        <h2 class="std-margin-left">Business and Software Development</h2>
-        <ul class="list-style-none list-no-indent" aria-label="Business and software development links">
-                  <li><a class="std-margin-left link-no-decoration" href="https://github.com/JonasPerssonDevelops" 
-          target="_blank"><img class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px" src="images/icon-github-sm.png" aria-hidden="true"  
-          alt="Twitter"><span class="visually-hidden">GitHub </span><span class="bold" aria-hidden="true">JonasPerssonDevelops</span></a></li>
-         
-          <li><a class="std-margin-left link-no-decoration" href="https://app.joinhandshake.com/stu/users/14066062" 
-            target="_blank"><img class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px" src="images/icon-handshake.png" aria-hidden="true"  
-            alt="Twitter"><span class="visually-hidden">HandShake</span><span class="bold" aria-hidden="true">Jonas Persson </span></a></li>
-  
-        <li><a class="std-margin-left link-no-decoration" href="https://www.linkedin.com/in/jonas-persson-dev" 
-          target="_blank"><img class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px" src="images/icon-linkedin.png" aria-hidden="true"  
-          alt="Twitter"><span class="visually-hidden">LinkedIn</span><span class="bold" aria-hidden="true">Jonas Persson </span></a></li>
-
-        </ul>
-
-        <h2 class="std-margin-left">Social Media</h2>
-        <ul class="list-style-none list-no-indent" aria-label="Links to my social media">
-
-          <li ><a class="std-margin-left link-no-decoration" href="https://www.facebook.com/profile.php?id=100014552645532" 
-        target="_blank"> 
-        <img class="align-vert-middle responsive-height-40px responsive-margin-right-6px" src="images/icon-facebook.png" aria-hidden="true" 
-        alt="Facebook">
-        <span class="visually-hidden">Facebook</span><span class="bold" aria-hidden="true"> Jonas Persson</span></a></li>
-      
-        <li><a class="std-margin-left link-no-decoration" href="https://www.instagram.com/jdmpersson/" 
-          target="_blank"><img class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px" src="images/icon-instagram.png" aria-hidden="true"  
-          alt="Instagram"><span class="visually-hidden">Instagram </span><span class="bold" aria-hidden="true">jdmpersson</span></a></li>        
-
-        
-        <li><a class="std-margin-left link-no-decoration" href="https://www.reddit.com/user/jdmpersson/" 
-          target="_blank"><img class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px" src="images/icon-reddit.svg" aria-hidden="true"  
-          alt="Twitter"><span class="visually-hidden">Reddit </span><span class="bold" aria-hidden="true">jdmpersson</span></a></li>
-
-          <li><a class="std-margin-left link-no-decoration" href="https://twitter.com/jperssontweets" 
-        target="_blank"><img class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px" src="images/icon-x-twitter.png" aria-hidden="true"  
-        alt="Twitter"><span class="visually-hidden">X </span><span class="bold" aria-hidden="true">jperssontweets</span></a></li>
-        </ul>
-
-
-      </section>
-    </main>
-
-    <div class="ios-graphic-bug-fix"></div>
-    <div class="main-bottom-transition-container">
-      <div class="main-bottom-rounded-corners"></div>
-    </div>
-
-    <footer>
-      <div class="flex-container-footer">
-        <div class="container-social-button">
-          <div class="item-social-button-logo" aria-hidden="true">
-            <a
-              href="https://www.instagram.com/jdmpersson"
-              target="_blank"
-              aria-hidden="true"
-              tabindex="-1"
-              ><img
-                class="social-button-logo"
-                src="images/Instagram_Glyph_White.svg"
-                aria-hidden="true"
-                alt="Instagram logo"
-            /></a>
+          <div class="container-email-item-address">
+            <span class="email-address" id="email-address"></span>
           </div>
-          <div class="item-social-button-subtext">
-            <a href="https://www.instagram.com/jdmpersson" target="_blank"
-              >Instagram</a
-            >
-          </div>
+          <div class="container-email-item-copy" id="copy-email"><button class="button-copy"
+              aria-label="Copy email"></button></div>
         </div>
 
-        <div class="container-social-button">
-          <div class="item-social-button-logo">
-            <a
-              href="https://github.com/JonasPerssonDevelops"
-              target="_blank"
-              aria-hidden="true"
-              tabindex="-1"
-              ><img
-                class="social-button-logo"
-                src="images/GitHub-Mark-Light-120px-plus.png"
-                aria-hidden="true"
-                alt="GitHub logo"
-            /></a>
-          </div>
-          <div class="item-social-button-subtext">
-            <a href="https://github.com/JonasPerssonDevelops" target="_blank"
-              >GitHub Profile</a
-            >
-          </div>
-        </div>
+        <span class="bold">Portland, Oregon.</span>
 
-        <div class="container-social-button">
-          <div class="item-social-button-logo">
-            <a
-              href="https://www.facebook.com/profile.php?id=100014552645532"
-              target="_blank"
-              aria-hidden="true"
-              tabindex="-1"
-              ><img
-                class="social-button-logo"
-                src="images/f_logo_RGB-White_250.png"
-                aria-hidden="true"
-                alt="Facebook logo"
-            /></a>
-          </div>
-          <div class="item-social-button-subtext">
-            <a
-              href="https://www.facebook.com/profile.php?id=100014552645532"
-              target="_blank"
-              >Facebook</a
-            >
-          </div>
+
+      </address>
+
+      <h2 class="std-margin-left">Business and Software Development</h2>
+      <ul class="list-style-none list-no-indent" aria-label="Business and software development links">
+        <li><a class="std-margin-left link-no-decoration" href="https://github.com/JonasPerssonDevelops"
+            target="_blank"><img
+              class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px"
+              src="images/icon-github-sm.png" aria-hidden="true" alt="Twitter"><span class="visually-hidden">My GitHub
+            </span><span class="bold" aria-hidden="true">JonasPerssonDevelops</span></a></li>
+
+        <li><a class="std-margin-left link-no-decoration" href="https://app.joinhandshake.com/stu/users/14066062"
+            target="_blank"><img
+              class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px"
+              src="images/icon-handshake.png" aria-hidden="true" alt="Twitter"><span class="visually-hidden">My
+              HandShake</span><span class="bold" aria-hidden="true">Jonas Persson</span></a></li>
+
+        <li><a class="std-margin-left link-no-decoration" href="https://www.linkedin.com/in/jonas-persson-dev"
+            target="_blank"><img
+              class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px"
+              src="images/icon-linkedin.png" aria-hidden="true" alt="Twitter"><span class="visually-hidden">My
+              LinkedIn</span><span class="bold" aria-hidden="true">Jonas Persson</span></a></li>
+
+      </ul>
+
+      <h2 class="std-margin-left">Social Media</h2>
+      <ul class="list-style-none list-no-indent" aria-label="Links to my social media">
+
+        <li><a class="std-margin-left link-no-decoration" href="https://www.facebook.com/profile.php?id=100014552645532"
+            target="_blank">
+            <img class="align-vert-middle responsive-height-40px responsive-margin-right-6px"
+              src="images/icon-facebook.png" aria-hidden="true" alt="Facebook">
+            <span class="visually-hidden">My Facebook</span><span class="bold" aria-hidden="true"> Jonas
+              Persson</span></a></li>
+
+        <li><a class="std-margin-left link-no-decoration" href="https://www.instagram.com/jdmpersson/"
+            target="_blank"><img
+              class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px"
+              src="images/icon-instagram.png" aria-hidden="true" alt="Instagram"><span class="visually-hidden">My
+              Instagram </span><span class="bold" aria-hidden="true">jdmpersson</span></a></li>
+
+
+        <li><a class="std-margin-left link-no-decoration" href="https://www.reddit.com/user/jdmpersson/"
+            target="_blank"><img
+              class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px"
+              src="images/icon-reddit.svg" aria-hidden="true" alt="Twitter"><span class="visually-hidden">My Reddit
+            </span><span class="bold" aria-hidden="true">jdmpersson</span></a></li>
+
+        <li><a class="std-margin-left link-no-decoration" href="https://twitter.com/jperssontweets" target="_blank"><img
+              class="align-vert-middle responsive-height-34px padding-responsive-left-2px responsive-margin-right-6px"
+              src="images/icon-x-twitter.png" aria-hidden="true" alt="Twitter"><span class="visually-hidden">My Twitter
+            </span><span class="bold" aria-hidden="true">jperssontweets</span></a></li>
+      </ul>
+
+
+      <li><a class="std-margin-left link-no-decoration" href="https://www.facebook.com/profile.php?id=100014552645532"
+          target="_blank">
+          <img class="align-vert-middle responsive-height-40px responsive-margin-right-6px"
+            src="images/icon-facebook.png" alt="Facebook"></a></li>
+
+
+    </section>
+  </main>
+
+  <div class="ios-graphic-bug-fix"></div>
+  <div class="main-bottom-transition-container">
+    <div class="main-bottom-rounded-corners"></div>
+  </div>
+
+  <footer>
+    <div class="flex-container-footer">
+      <div class="container-social-button">
+        <div class="item-social-button-logo" aria-hidden="true">
+          <a href="https://www.instagram.com/jdmpersson" target="_blank" aria-hidden="true" tabindex="-1"><img
+              class="social-button-logo" src="images/Instagram_Glyph_White.svg" aria-hidden="true"
+              alt="Instagram logo" /></a>
+        </div>
+        <div class="item-social-button-subtext">
+          <a href="https://www.instagram.com/jdmpersson" target="_blank">Instagram</a>
         </div>
       </div>
-    </footer>
-  </body>
+
+      <div class="container-social-button">
+        <div class="item-social-button-logo">
+          <a href="https://github.com/JonasPerssonDevelops" target="_blank" aria-hidden="true" tabindex="-1"><img
+              class="social-button-logo" src="images/GitHub-Mark-Light-120px-plus.png" aria-hidden="true"
+              alt="GitHub logo" /></a>
+        </div>
+        <div class="item-social-button-subtext">
+          <a href="https://github.com/JonasPerssonDevelops" target="_blank">GitHub Profile</a>
+        </div>
+      </div>
+
+      <div class="container-social-button">
+        <div class="item-social-button-logo">
+          <a href="https://www.facebook.com/profile.php?id=100014552645532" target="_blank" aria-hidden="true"
+            tabindex="-1"><img class="social-button-logo" src="images/f_logo_RGB-White_250.png" aria-hidden="true"
+              alt="Facebook logo" /></a>
+        </div>
+        <div class="item-social-button-subtext">
+          <a href="https://www.facebook.com/profile.php?id=100014552645532" target="_blank">Facebook</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
 </html>
